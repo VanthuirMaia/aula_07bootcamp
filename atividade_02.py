@@ -1,6 +1,6 @@
 # Crie uma função para Filtrar Dados Acima de um Limite
 
-def filtrar_limite(lista, limite):
+def filtrar_limite(lista: list[float], limite: float) -> list[float]:
     return [valor for valor in lista if valor >= limite]
 
 valores = [10, 20, 30, 40, 50]
